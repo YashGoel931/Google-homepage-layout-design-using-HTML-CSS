@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    
+    /* resize: none; */
+}
+nav li{
+ list-style: none;
+ padding: 10px;
+ margin: 2px;
+}
+#barlogo{
+   width: 80vw;
+    height: 70px;  
+}
+#gmaillogo{
+    width: 10vw;
+}
+#one{
+    width: 25vw;
+    height: 80px;
+}
+#two{
+    width: 25vw;
+    height: 80px;
+}
+#third{
+    width: 28vw;
+    height: 80px;
+}
+#image{
+    width: 80vw;
+    height: 150px;
+}
+#photo{
+    font-weight: bold;
+    color: black;
+}
+body{
+  flex-direction: column;
+  min-height: 100vh;
+  /* min-width: 50vw; */
+  display: flex;
+  /* width:auto;
+  flex-grow: 0; */
+}
+section{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.content{
+    width: 80vw;
+    height: 300px;
+    background-color: rgb(224, 215, 215);
+    flex-direction: column;
+      display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.layer{
+    padding: 10px 20px;
+   border-bottom: 2px solid black;
+ width: 100%;
+ /* background-color: rgb(197, 193, 193); */
+ display: flex;
+   justify-content: space-between;
+}
+.sociallinks{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+nav, footer{
+    flex-shrink: 0;
+}
